@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/91ad5c6d6a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body onclick="loadAnh()">
+    <nav class="menu">
+        <ul class="nav-bar">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="/">Về chúng tôi</a></li>
+            <li><a href="/">Liên Hệ</a></li>
+            <li><a href="/">Khuyến Mãi</a>
+                <ul class="sub-menu">
+                    <li><a href="/">Siêu Sale 10/10</a></li>
+                    <li><a href="/">Hàng Hot</a></li>
+                    <li><a href="/">Chốt Deal 50%</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/">Tài Khoản</a>
+                <ul class="sub-menu">
+                    <li><a href="/">Đăng Nhập</a></li>
+                    <li><a href="/">Đăng Ký</a></li>
+                    <li><a href="/">Sửa thông tin</a></li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+        <div class="search">
+            <input type="text" id="text" class="search-input" placeholder="Bạn tìm gì hôm nay ?">
+            <button class="btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="icon">
+            <li class="list-icon"><i class="fa-solid fa-bag-shopping"></i> <a href="#">Giỏ hàng</a></li>
+            <li class="list-icon"><i class="fa-solid fa-phone"></i> + 84 306 6845</li>
+        </div>
+
+
+    <section class="banner">
+        <div class="parent">
+                <div class="banner-big item">
+                    <h2 class="title-banner">Chương Trình Hot</h2>
+                    <img id="slideshow" src="./Pic/anh0.jpg" style="width: 800px;">
+                    <h1 id="title">1/5</h1>
+                    <!-- <button class=" color" onclick="slideshow(1)">First</button> -->
+                    <button class="canGiuaNut1 color" onclick="slideshow(2)"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                    <button class="canGiuaNut2 color" onclick="slideshow(3)"><i class="fa-solid fa-circle-arrow-right"></i></button>
+                    <!-- <button class="color" onclick="slideshow(4)">Last</button> -->
+                </div>
+                <div class="banner-small">
+                    <img src="./Pic/anh2.jpg" alt="">
+                </div>
+                <div class="banner-small">
+                    <img src="./Pic/anh4.jpg" alt="">
+                </div>
+        </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>
